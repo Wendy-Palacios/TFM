@@ -6,7 +6,7 @@ from sklearn import cluster
 from itertools import product
 
 # Cargar los datos
-SOC = pd.read_csv("03 ETAPA 1.1/my_data_V01.csv", sep=',')
+SOC = pd.read_csv("dataset.csv", sep=',')
 n_features_list = [2, 3, 4]  # Diferentes números de características a probar
 
 n_clusters_range = range(2, 10)  
