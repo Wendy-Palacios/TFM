@@ -8,7 +8,7 @@ from matplotlib.colors import LinearSegmentedColormap
 
 
 """ ---------------------------------------------------------------------------------------------------- NORMALIZACIÓN ---------------------------------------------------------------------------------------------------- """
-SOC = pd.read_csv("03 ETAPA 1.1/my_data_V01.csv", sep=',')
+SOC = pd.read_csv("dataset.csv", sep=',')
 
 """" Se separa las entradas de las salidas """
 X = SOC.iloc[:,0:4]
